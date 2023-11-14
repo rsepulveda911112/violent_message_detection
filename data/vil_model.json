@@ -1,0 +1,19 @@
+[
+  {
+    "learning_rate": 2e-5,
+    "num_train_epochs": 2,
+    "reprocess_input_data": true,
+    "overwrite_output_dir": true,
+    "process_count": 10,
+    "train_batch_size": 16,
+    "eval_batch_size": 16,
+    "max_seq_length": 400,
+    "manual_seed": 4284,
+    "use_multiprocessing": false,
+    "use_multiprocessing_for_evaluation": false,
+    "evaluate_during_training_steps": 10000,
+    "multiprocessing_chunksize": 500,
+    "fp16": true,
+    "tensorboard_dir": "tensorboard",
+    "fp16_opt_level": "01"
+  }]
